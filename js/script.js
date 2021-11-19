@@ -3,7 +3,7 @@
 const eta = parseInt(prompt('Indica la tua età'));
 const chilometri = parseInt(prompt('Indica quanti km vuoi percorrere'));
 console.log('Età passeggero: ' + eta);
-document.writeln('Età posseggero: ' + eta);
+document.writeln('Età passeggero: ' + eta);
 console.log('Km da percorrere: ' + chilometri);
 document.writeln('Km da percorrere: ' + chilometri);
 
