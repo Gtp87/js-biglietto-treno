@@ -3,7 +3,7 @@
 const eta = parseInt(prompt('Indica la tua età'));
 const chilometri = parseInt(prompt('Indica quanti km vuoi percorrere'));
 
-// controllo che i prompt non siano vuoti o abbiano dati errati (non siano numeri)
+// controllo che i prompt non siano vuoti o abbiano dati errati (non siano numeri) o sia stato inserito zero
 
 if (!(isNaN(eta)) && !(isNaN(chilometri)) && eta != '' && chilometri != '' && eta != 0 && chilometri != 0) {
     
