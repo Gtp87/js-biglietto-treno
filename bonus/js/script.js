@@ -1,7 +1,7 @@
 // Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero.
 
 const eta = parseInt(prompt('Indica la tua età'));
-const chilometri = parseInt(prompt('Indica quanti km vuoi percorrere'));
+const chilometri = parseFloat(prompt('Indica quanti km vuoi percorrere'));
 
 // controllo che i prompt non siano vuoti o abbiano dati errati (non siano numeri) o sia stato inserito zero
 
